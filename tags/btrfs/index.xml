@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>btrfs on Brainfork</title>
+    <link>https://brainfork.org/tags/btrfs/</link>
+    <description>Recent content in btrfs on Brainfork</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Sun, 05 Oct 2014 00:00:00 +0200</lastBuildDate><atom:link href="https://brainfork.org/tags/btrfs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wiele systemów na jednej partycji, czyli sztuczki z BTRFS</title>
+      <link>https://brainfork.org/posts/20141005-btrfs/</link>
+      <pubDate>Sun, 05 Oct 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20141005-btrfs/</guid>
+      <description>Jedną z wielu ciekawostek systemu BTRFS jest obsługa “podwoluminów”, które mogą być używane w sposób całkowicie niezależny od reszty systemu plików — mechanizm przypomina bardzo typowy podział dysku na partycje, zdejmując jednak z użytkownika problematykę związaną ze złym rozłożeniem rozmiaru poszczególnych partycji i uciążliwą, często niemożliwą do wykonania podczas działania systemu modyfikacją układu.
+Idąc dalej możemy nawet zrezygnować z tworzenia układu partycji i stworzyć dysk który jest w pełni zagospodarowany za pomocą BTRFS.</description>
+    </item>
+    
+  </channel>
+</rss>

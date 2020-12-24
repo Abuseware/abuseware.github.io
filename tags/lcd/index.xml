@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lcd on Brainfork</title>
+    <link>https://brainfork.org/tags/lcd/</link>
+    <description>Recent content in lcd on Brainfork</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Tue, 04 Apr 2017 00:00:00 +0200</lastBuildDate><atom:link href="https://brainfork.org/tags/lcd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pong</title>
+      <link>https://brainfork.org/posts/20170404-pong/</link>
+      <pubDate>Tue, 04 Apr 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20170404-pong/</guid>
+      <description>Dla “potomnych” wrzucam zaległe nagrania z projektu tworzonego około rok temu.
+Prototyp   Wersja końcowa   Jak widać nic zjawiskowego, ot kolejny klon ponga z pięknym ghostingiem spowodowanym świetnej jakości ekranem starej Nokii.</description>
+    </item>
+    
+  </channel>
+</rss>

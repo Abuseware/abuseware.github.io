@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>desktop on Brainfork</title>
+    <link>https://brainfork.org/tags/desktop/</link>
+    <description>Recent content in desktop on Brainfork</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Thu, 09 Jul 2015 00:00:00 +0200</lastBuildDate><atom:link href="https://brainfork.org/tags/desktop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FreeBSD na desktopie — warto?</title>
+      <link>https://brainfork.org/posts/20150709-freebsd-desktop/</link>
+      <pubDate>Thu, 09 Jul 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20150709-freebsd-desktop/</guid>
+      <description>Post nie pretenduje do miana poradnika, ani żadnego know how, zawarłem tu jedynie moje spostrzeżenia odnośnie rozwoju tego systemu przez ostatnie kilka lat.
+Już kilka razy systemy z rodziny BSD przewinęły się po dyskach moich serwerów, desktopów i laptopów. O ile sytuacja na serwerach od zawsze wypadała o niebo lepiej od dystrybucji GNU/Linux, o tyle na reszcie sprzętu zawsze pojawiały się problemy, często przypominające Linuksy w czasach tak zamierzchłych jak wersje 2.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pogoda on Brainfork</title>
+    <link>https://brainfork.org/tags/pogoda/</link>
+    <description>Recent content in pogoda on Brainfork</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Sat, 16 Mar 2019 00:00:00 +0200</lastBuildDate><atom:link href="https://brainfork.org/tags/pogoda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Własna stacja pogodowa — część czwarta i ostatnia</title>
+      <link>https://brainfork.org/posts/20190316-weather-station-4/</link>
+      <pubDate>Sat, 16 Mar 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20190316-weather-station-4/</guid>
+      <description>Wreszcie dotarły do mnie wszystkie elementy układanki i zacząłem składać czujki w zgrabną całość. Jeśli jeszcze raz ktoś mi powie, że rezystory o rozmiarach 0,6 x 0,3mm są fajne do ręcznego lutowania, to mu przylutuję…
+Czujnik temperatury Jako podstawy czujki użyłem płytki prototypowej do której przymocowałem wszystkie elementy — Arduino Pro Mini oraz nRF24l01 za pomocą goldpinów które później skróciłem aby całość mogła dość nisko wejść w obudowę. W pobliżu pinu piątego umiejscowiłem DS18b20 oraz rezystor SMD 0603 4k7 podciągający linię sygnałową do stanu wysokiego.</description>
+    </item>
+    
+    <item>
+      <title>Własna stacja pogodowa - część trzecia</title>
+      <link>https://brainfork.org/posts/20190216-weather-station-3/</link>
+      <pubDate>Sat, 16 Feb 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20190216-weather-station-3/</guid>
+      <description>Aktualnie pracuję nad przekształceniem całego projektu w system wewnętrznych czujników które mogłyby być rozsiane w różnych miejscach domu. Koncept oparłem o układy nRF24L01 które są tanie, posiadając przy tym zadowalające parametry i nie wymuszają podłączania każdego czujnika do sieci Wi-Fi, co mogłoby spowodować spadek wydajności całej sieci, szczególnie przy większej liczbie mocno oddalonych od siebie czujek. Dodałem także obsługę układów Microchip MCP9700A, które są o wiele tańsze od Maximowych DS18B20, a przy odpowiedniej kalibracji i multisamplingu dają bardzo dobre rezultaty.</description>
+    </item>
+    
+    <item>
+      <title>Własna stacja pogodowa — changelog</title>
+      <link>https://brainfork.org/posts/20180304-weather-station-2/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20180304-weather-station-2/</guid>
+      <description>W związku z kilkoma błędami w wykonaniu które wyszły na jaw po publikacji ostatniego posta chciałbym zamieścić krótką erratę, jak i listę zmian które zaszły.
+Od strony sprzętowej największą pomyłką okazało się zamknięcie czujnika w metalowej puszce — o ile w nocy spełnia swoje zadanie, choć jak zrozumiałem po dyskusjach z kilkoma osobami które mają trochę większe doświadczenie w temacie zupełnie niepotrzebnie, o tyle w momentach wystawienia na bezpośrednie działanie promieni słonecznych działa ona lepiej niż nie jedna szklarnia i przekłamuje pomiary o dobre kilkanaście stopni.</description>
+    </item>
+    
+    <item>
+      <title>Początki z Arduino, czyli własna stacja pogodowa</title>
+      <link>https://brainfork.org/posts/20180228-weather-station/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20180228-weather-station/</guid>
+      <description>Chciałbym Wam przedstawić mój nowy projekt zrobiony z okazji zakupu pierwszego Arduino, a mianowicie prostą do bólu stację logującą temperaturę z czujnika DS18b20 do pliku oraz dalszą możliwość obróbki takiego pliku w celu ciekawej reprezentacji.
+Stacja składa się z:
+ Arduino Pro Mini, lub dowolnej innej wersji — np. chińskiej DS18b20 — właściwy termometr DS1307 — RTC używany do dokładniejszego pomiaru czasu Dowolna karta SD/microSD  Szczegółów wykonania urządzenia opisywać nie będę, nie jest ono zbyt skomplikowane.</description>
+    </item>
+    
+  </channel>
+</rss>

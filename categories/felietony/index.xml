@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Felietony on Brainfork</title>
+    <link>https://brainfork.org/categories/felietony/</link>
+    <description>Recent content in Felietony on Brainfork</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Fri, 29 Jul 2016 00:00:00 +0200</lastBuildDate><atom:link href="https://brainfork.org/categories/felietony/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stare nowe gry…</title>
+      <link>https://brainfork.org/posts/20160729-gry/</link>
+      <pubDate>Fri, 29 Jul 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20160729-gry/</guid>
+      <description>Modne ostatnio jest tworzenie remake’ów starych gier. Fani, napędzani nostalgią chętnie wyciągną portfel i zapłacą jeszcze raz, by pograć w to samo, ot dla wspominek i obrazu w HD. Pytanie tylko, czy na pewno przeniesienie gry na współczesną platformę i narysowanie tekstur/sprite’ów od nowa jest dla takiej gry dobre?
+Twórcy remake’a mogą popsuć coś w grze, wyciąć lub dodać fragmenty których oryginalnie nie było… dorzucić poprawkę która znacznie wpłynie na rozgrywkę.</description>
+    </item>
+    
+    <item>
+      <title>USA, NSA i CISA — małe wielkie zmiany w internecie i jego prywatności…</title>
+      <link>https://brainfork.org/posts/20151112-prywatnosc/</link>
+      <pubDate>Thu, 12 Nov 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20151112-prywatnosc/</guid>
+      <description>27 października 2015 w senacie USA poparta została większością głosów propozycja ustawy Cybersecurity Information Sharing Act (CISA). W okół niej jeszcze przed głosowaniem było wiele szumu, jak i protestów.
+A dlaczego?
+CISA, cytując za szkicem tejże ustawy ma na celu “improve cybersecurity in the United States through enhanced sharing of information about cybersecurity threats, and for other purposes”, czyli tłumacząc — poprawić poziom cyberbezpieczeństwa na terenie USA poprzez ulepszony przepływ informacji o zagrożeniach, oraz w innych celach.</description>
+    </item>
+    
+    <item>
+      <title>Jak (nie) zostać programistą…</title>
+      <link>https://brainfork.org/posts/20150806-programista/</link>
+      <pubDate>Thu, 06 Aug 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20150806-programista/</guid>
+      <description>Opiszę Wam jak to (nie) zostałem programistą, a na koniec udzielę też kilku rad w tym temacie.
+Mając lat siedem dostałem komputer… Ot, stary używany złom którego używałem głównie do grania w to co gimby nie znają. Internetu za bardzo nie było, a jak się już pojawił to kosztował tyle, że opłacało się go używać jedynie w porach, w których już dawno spałem. W międzyczasie ojciec uraczył mnie prezentem w postaci pierwszego numeru czasopisma o podstawach programowania wydawanym przez istniejące do dziś wydawnictwo szczycące się różnego rodzaju zestawami do samodzielnego montażu i częściami do nich, a także książkami powiązanymi tematycznie i/lub gatunkowo.</description>
+    </item>
+    
+    <item>
+      <title>FreeBSD na desktopie — warto?</title>
+      <link>https://brainfork.org/posts/20150709-freebsd-desktop/</link>
+      <pubDate>Thu, 09 Jul 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20150709-freebsd-desktop/</guid>
+      <description>Post nie pretenduje do miana poradnika, ani żadnego know how, zawarłem tu jedynie moje spostrzeżenia odnośnie rozwoju tego systemu przez ostatnie kilka lat.
+Już kilka razy systemy z rodziny BSD przewinęły się po dyskach moich serwerów, desktopów i laptopów. O ile sytuacja na serwerach od zawsze wypadała o niebo lepiej od dystrybucji GNU/Linux, o tyle na reszcie sprzętu zawsze pojawiały się problemy, często przypominające Linuksy w czasach tak zamierzchłych jak wersje 2.</description>
+    </item>
+    
+    <item>
+      <title>O SystemD słów kilka…</title>
+      <link>https://brainfork.org/posts/20141119-systemd/</link>
+      <pubDate>Wed, 19 Nov 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20141119-systemd/</guid>
+      <description>SystemD, pomimo wielu zalet spotyka się ze znaczym oporem wśród developerów jak i użytkowników wielu dystrybucji GNU/Linux. Problem jest na tyle poważny, że developerzy zaczynają masowo rezygnować z współtworzenia dystrybucji, choć moim zdaniem te reakcje są sporo przesadzone, a zmiana wychodzi jedynie wszystkim na dobre.
+Jedną z najczęściej wymienianych wad jest brak podążania za nieformalnym standardem KISS. Według mnie jest to bzdurą, gdyż pomimo swojej złożoności za każdą jego funkcję odpowiadają osobne demony, które jednak są od początku przystosowane do wzajemnej współpracy.</description>
+    </item>
+    
+  </channel>
+</rss>

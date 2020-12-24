@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Brainfork</title>
+    <link>https://brainfork.org/tags/</link>
+    <description>Recent content in Tags on Brainfork</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Sat, 16 Mar 2019 00:00:00 +0200</lastBuildDate><atom:link href="https://brainfork.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>arduino</title>
+      <link>https://brainfork.org/tags/arduino/</link>
+      <pubDate>Sat, 16 Mar 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/arduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>atmega</title>
+      <link>https://brainfork.org/tags/atmega/</link>
+      <pubDate>Sat, 16 Mar 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/atmega/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>atmel</title>
+      <link>https://brainfork.org/tags/atmel/</link>
+      <pubDate>Sat, 16 Mar 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/atmel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>avr</title>
+      <link>https://brainfork.org/tags/avr/</link>
+      <pubDate>Sat, 16 Mar 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/avr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pogoda</title>
+      <link>https://brainfork.org/tags/pogoda/</link>
+      <pubDate>Sat, 16 Mar 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/pogoda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>assembly</title>
+      <link>https://brainfork.org/tags/assembly/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:01 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/assembly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mos6502</title>
+      <link>https://brainfork.org/tags/mos6502/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:01 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/mos6502/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nes</title>
+      <link>https://brainfork.org/tags/nes/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:01 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/nes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pegasus</title>
+      <link>https://brainfork.org/tags/pegasus/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:01 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/pegasus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>c</title>
+      <link>https://brainfork.org/tags/c/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>osdev</title>
+      <link>https://brainfork.org/tags/osdev/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/osdev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lcd</title>
+      <link>https://brainfork.org/tags/lcd/</link>
+      <pubDate>Tue, 04 Apr 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/lcd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pong</title>
+      <link>https://brainfork.org/tags/pong/</link>
+      <pubDate>Tue, 04 Apr 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/pong/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emulacja</title>
+      <link>https://brainfork.org/tags/emulacja/</link>
+      <pubDate>Fri, 29 Jul 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/emulacja/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gry</title>
+      <link>https://brainfork.org/tags/gry/</link>
+      <pubDate>Fri, 29 Jul 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/gry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rant</title>
+      <link>https://brainfork.org/tags/rant/</link>
+      <pubDate>Fri, 29 Jul 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/rant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>e-papieros</title>
+      <link>https://brainfork.org/tags/e-papieros/</link>
+      <pubDate>Mon, 08 Feb 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/e-papieros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eleaf</title>
+      <link>https://brainfork.org/tags/eleaf/</link>
+      <pubDate>Mon, 08 Feb 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/eleaf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>istick</title>
+      <link>https://brainfork.org/tags/istick/</link>
+      <pubDate>Mon, 08 Feb 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/istick/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lemo 2</title>
+      <link>https://brainfork.org/tags/lemo-2/</link>
+      <pubDate>Mon, 08 Feb 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/lemo-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cisa</title>
+      <link>https://brainfork.org/tags/cisa/</link>
+      <pubDate>Thu, 12 Nov 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/cisa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>felieton</title>
+      <link>https://brainfork.org/tags/felieton/</link>
+      <pubDate>Thu, 12 Nov 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/felieton/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>prywatność</title>
+      <link>https://brainfork.org/tags/prywatno%C5%9B%C4%87/</link>
+      <pubDate>Thu, 12 Nov 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/prywatno%C5%9B%C4%87/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>usa</title>
+      <link>https://brainfork.org/tags/usa/</link>
+      <pubDate>Thu, 12 Nov 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/usa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>provog</title>
+      <link>https://brainfork.org/tags/provog/</link>
+      <pubDate>Mon, 31 Aug 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/provog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>venture 2</title>
+      <link>https://brainfork.org/tags/venture-2/</link>
+      <pubDate>Mon, 31 Aug 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/venture-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>desktop</title>
+      <link>https://brainfork.org/tags/desktop/</link>
+      <pubDate>Thu, 09 Jul 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/desktop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>freebsd</title>
+      <link>https://brainfork.org/tags/freebsd/</link>
+      <pubDate>Thu, 09 Jul 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/freebsd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>apple</title>
+      <link>https://brainfork.org/tags/apple/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/apple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gnu</title>
+      <link>https://brainfork.org/tags/gnu/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/gnu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://brainfork.org/tags/linux/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>magic mouse</title>
+      <link>https://brainfork.org/tags/magic-mouse/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/magic-mouse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>debian</title>
+      <link>https://brainfork.org/tags/debian/</link>
+      <pubDate>Wed, 19 Nov 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/debian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>systemd</title>
+      <link>https://brainfork.org/tags/systemd/</link>
+      <pubDate>Wed, 19 Nov 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/systemd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>arch</title>
+      <link>https://brainfork.org/tags/arch/</link>
+      <pubDate>Sun, 05 Oct 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/arch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>btrfs</title>
+      <link>https://brainfork.org/tags/btrfs/</link>
+      <pubDate>Sun, 05 Oct 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/btrfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gentoo</title>
+      <link>https://brainfork.org/tags/gentoo/</link>
+      <pubDate>Sun, 05 Oct 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/gentoo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>p1</title>
+      <link>https://brainfork.org/tags/p1/</link>
+      <pubDate>Fri, 22 Aug 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/p1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>openvpn</title>
+      <link>https://brainfork.org/tags/openvpn/</link>
+      <pubDate>Fri, 05 Apr 2013 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/openvpn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tinc</title>
+      <link>https://brainfork.org/tags/tinc/</link>
+      <pubDate>Fri, 05 Apr 2013 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/tinc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vpn</title>
+      <link>https://brainfork.org/tags/vpn/</link>
+      <pubDate>Fri, 05 Apr 2013 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/vpn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>libc</title>
+      <link>https://brainfork.org/tags/libc/</link>
+      <pubDate>Tue, 12 Mar 2013 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/libc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bruteforce</title>
+      <link>https://brainfork.org/tags/bruteforce/</link>
+      <pubDate>Mon, 25 Feb 2013 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/bruteforce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>c&#43;&#43;</title>
+      <link>https://brainfork.org/tags/c&#43;&#43;/</link>
+      <pubDate>Mon, 25 Feb 2013 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cracking</title>
+      <link>https://brainfork.org/tags/cracking/</link>
+      <pubDate>Mon, 25 Feb 2013 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/cracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>garbage collector</title>
+      <link>https://brainfork.org/tags/garbage-collector/</link>
+      <pubDate>Mon, 25 Feb 2013 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/tags/garbage-collector/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

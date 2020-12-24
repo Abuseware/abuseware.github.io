@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>e-papieros on Brainfork</title>
+    <link>https://brainfork.org/tags/e-papieros/</link>
+    <description>Recent content in e-papieros on Brainfork</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Mon, 08 Feb 2016 00:00:00 +0200</lastBuildDate><atom:link href="https://brainfork.org/tags/e-papieros/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eleaf iStick TC60W kit — test</title>
+      <link>https://brainfork.org/posts/20160208-eleaf-istick/</link>
+      <pubDate>Mon, 08 Feb 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20160208-eleaf-istick/</guid>
+      <description>Niedawno zdecydowałem się wymienić mojego Provog Venture 2 na coś nowszego. Wybór padł na zestaw firmy Eleaf — mod iStick TC60W w wersji Brushed Silver wraz z atomizerem Lemo 2.
+W skład zestawu wchodzi mod wraz z wymiennymi panelami bocznymi (u mnie były to panele czarne, dostępne są inne wersje kolorystyczne), atomizer, trzy zespoły grzewcze (nichromowy 0.3Ω, niklowy 0.15Ω oraz tytanowy 0.5Ω), zapasowe uszczelki oraz wielojęzyczne instrukcje obsługi, niestety bez języka polskiego.</description>
+    </item>
+    
+    <item>
+      <title>Tworzymy własny liquid do e-papierosa</title>
+      <link>https://brainfork.org/posts/20151214-liquid/</link>
+      <pubDate>Mon, 14 Dec 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20151214-liquid/</guid>
+      <description>Dlaczego warto przesiąść się z gotowych liquidów sklepowych na własnoręcznie tworzone? Powodów może być wiele, od możliwości niemal nieograniczonego wyboru aromatu i mocy, po cenę produktu.
+Cena Typowy liquid sklepowy to koszt od 10 do 30zł za 10ml. Nie jest to może zaporowe, ale dla mnie jednym z powodów przesiadki na elektronicznego papierosa była kwestia ograniczenia wydatków z tym związanych. Sklepowe liquidy i tak wychodzą taniej niż klasyczne papierosy, ale… można oszczędzić jeszcze bardziej, nic nie tracąc.</description>
+    </item>
+    
+    <item>
+      <title>PROVOG Venture 2 — Wrażenia</title>
+      <link>https://brainfork.org/posts/20150831-provog-venture-2/</link>
+      <pubDate>Mon, 31 Aug 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20150831-provog-venture-2/</guid>
+      <description>Tekst jest aktualizacją do PROVOG Venture 2 — Test.
+Pół roku później… W trakcie ponad półrocznego użytkowania wystąpiły:
+ Częściowe starcie posrebrzenia z boków dołu papierosa Delikatne odbarwienia niebieskiego lakieru Przetarcia w lakierze pokrywającym górną część tulei Luzy na połączeniach tulei z jej gwintami oraz pomiędzy przyłączem baterii i jej korpusem Przepalenie 4 (włącznie z oryginalnym) zespołów grzewczych  Oprócz zespołu grzewczego żadna inna część nie była wymieniana, tak więc żywotność urządzenia jest bardzo dobra — szczególnie, że e-papierosa noszę w kieszeni.</description>
+    </item>
+    
+    <item>
+      <title>PROVOG Venture 2 — Test</title>
+      <link>https://brainfork.org/posts/20150112-provog-venture-2/</link>
+      <pubDate>Mon, 12 Jan 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20150112-provog-venture-2/</guid>
+      <description>Po ponad rocznym używaniu e-papierosa marki P1 (Blister) i licznych problemach oraz stałym spadkiem jakości części wymiennych zdecydowałem się na zakup nowego, tym razem nie “polskiej” produkcji (Made in china aż biło po oczach). Poniższy test będzie więc również porównaniem obu produktów.
+Unboxing Venture 2, w wersji Azure zakupiłem za 119 PLN w jednym z punktów marki eSmokingWorld. Opakowany został ładnym pudełkiem z przezroczystą “szybką” pozwalającą ujrzeć nasz egzemplarz przed zakupem.</description>
+    </item>
+    
+    <item>
+      <title>Naprawa przepalonego zespołu grzewczego P1</title>
+      <link>https://brainfork.org/posts/20140822-grzalka-p1/</link>
+      <pubDate>Fri, 22 Aug 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20140822-grzalka-p1/</guid>
+      <description>Produkty marki P1 cechują się niską ceną oraz… wysoką awaryjnością. Patrząc na produkt który jest tematem niniejszego artykułu i porównując go z alternatywami oferowanymi przez resztę firm można zauważyć, że ograniczenie ceny elementu było kluczowe przy jego projektowaniu. Z tego też względu “waciki” zostały zmniejszone do kikutów długości około centymetra a cały zespół grzewczy jest zamontowany pod zbiorniczkiem liquidu. Rozwiązanie ciekawe i zmniejsza prawdopodobieństwo spalenia grzałki, jednak jakość wykonania elementu i tak sprawia, że nie przetrwał on u mnie dłużej niż miesiąc (producent nie obiecywał dłuższego czasu pracy).</description>
+    </item>
+    
+  </channel>
+</rss>

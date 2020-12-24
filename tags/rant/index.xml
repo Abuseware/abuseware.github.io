@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rant on Brainfork</title>
+    <link>https://brainfork.org/tags/rant/</link>
+    <description>Recent content in rant on Brainfork</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Fri, 29 Jul 2016 00:00:00 +0200</lastBuildDate><atom:link href="https://brainfork.org/tags/rant/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stare nowe gry…</title>
+      <link>https://brainfork.org/posts/20160729-gry/</link>
+      <pubDate>Fri, 29 Jul 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20160729-gry/</guid>
+      <description>Modne ostatnio jest tworzenie remake’ów starych gier. Fani, napędzani nostalgią chętnie wyciągną portfel i zapłacą jeszcze raz, by pograć w to samo, ot dla wspominek i obrazu w HD. Pytanie tylko, czy na pewno przeniesienie gry na współczesną platformę i narysowanie tekstur/sprite’ów od nowa jest dla takiej gry dobre?
+Twórcy remake’a mogą popsuć coś w grze, wyciąć lub dodać fragmenty których oryginalnie nie było… dorzucić poprawkę która znacznie wpłynie na rozgrywkę.</description>
+    </item>
+    
+  </channel>
+</rss>

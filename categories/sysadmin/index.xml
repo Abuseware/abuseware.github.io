@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sysadmin on Brainfork</title>
+    <link>https://brainfork.org/categories/sysadmin/</link>
+    <description>Recent content in Sysadmin on Brainfork</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Thu, 09 Jul 2015 00:00:00 +0200</lastBuildDate><atom:link href="https://brainfork.org/categories/sysadmin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FreeBSD na desktopie — warto?</title>
+      <link>https://brainfork.org/posts/20150709-freebsd-desktop/</link>
+      <pubDate>Thu, 09 Jul 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20150709-freebsd-desktop/</guid>
+      <description>Post nie pretenduje do miana poradnika, ani żadnego know how, zawarłem tu jedynie moje spostrzeżenia odnośnie rozwoju tego systemu przez ostatnie kilka lat.
+Już kilka razy systemy z rodziny BSD przewinęły się po dyskach moich serwerów, desktopów i laptopów. O ile sytuacja na serwerach od zawsze wypadała o niebo lepiej od dystrybucji GNU/Linux, o tyle na reszcie sprzętu zawsze pojawiały się problemy, często przypominające Linuksy w czasach tak zamierzchłych jak wersje 2.</description>
+    </item>
+    
+    <item>
+      <title>O SystemD słów kilka…</title>
+      <link>https://brainfork.org/posts/20141119-systemd/</link>
+      <pubDate>Wed, 19 Nov 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20141119-systemd/</guid>
+      <description>SystemD, pomimo wielu zalet spotyka się ze znaczym oporem wśród developerów jak i użytkowników wielu dystrybucji GNU/Linux. Problem jest na tyle poważny, że developerzy zaczynają masowo rezygnować z współtworzenia dystrybucji, choć moim zdaniem te reakcje są sporo przesadzone, a zmiana wychodzi jedynie wszystkim na dobre.
+Jedną z najczęściej wymienianych wad jest brak podążania za nieformalnym standardem KISS. Według mnie jest to bzdurą, gdyż pomimo swojej złożoności za każdą jego funkcję odpowiadają osobne demony, które jednak są od początku przystosowane do wzajemnej współpracy.</description>
+    </item>
+    
+    <item>
+      <title>Wiele systemów na jednej partycji, czyli sztuczki z BTRFS</title>
+      <link>https://brainfork.org/posts/20141005-btrfs/</link>
+      <pubDate>Sun, 05 Oct 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20141005-btrfs/</guid>
+      <description>Jedną z wielu ciekawostek systemu BTRFS jest obsługa “podwoluminów”, które mogą być używane w sposób całkowicie niezależny od reszty systemu plików — mechanizm przypomina bardzo typowy podział dysku na partycje, zdejmując jednak z użytkownika problematykę związaną ze złym rozłożeniem rozmiaru poszczególnych partycji i uciążliwą, często niemożliwą do wykonania podczas działania systemu modyfikacją układu.
+Idąc dalej możemy nawet zrezygnować z tworzenia układu partycji i stworzyć dysk który jest w pełni zagospodarowany za pomocą BTRFS.</description>
+    </item>
+    
+    <item>
+      <title>TINC — Alternatywa dla OpenVPN?</title>
+      <link>https://brainfork.org/posts/20130405-tinc/</link>
+      <pubDate>Fri, 05 Apr 2013 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20130405-tinc/</guid>
+      <description>Od dłuższego czasu interesował mnie projekt o nazwie TINC, jednak nigdy nie miałem wystarczającej ilości czasu, by dokładniej się mu przyjrzeć. Jest toprojekt implementujący VPN, potrafiący pracować zarówno jako mostek pomiędzy różnymi intranetami, jak i jako prosty punkt dostępowy do sieci wewnętrznej.
+Różnice pomiędzy projektami Na początek warto wspomnieć, że TINC nie jest tak rozbudowany jak OpenVPN. Nie posiada udawanego serwera DHCP ani żadnej funkcjonalności ingerującej w konfigurację adresów IP i tym podobnych.</description>
+    </item>
+    
+    <item>
+      <title>Zmienna środowiskowa LD_PRELOAD</title>
+      <link>https://brainfork.org/posts/20130312-zmienna-srodowiskowa-ld-preload/</link>
+      <pubDate>Tue, 12 Mar 2013 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20130312-zmienna-srodowiskowa-ld-preload/</guid>
+      <description>Niewielu początkujących programistów i administratorów wie o tej zmiennej, a warto przyjrzeć się bliżej jej możliwościom, które wprowadzają tyle samo dobrego, co i złego.
+Co to jest? Zmienna środowiskowa LD_PRELOAD, oraz jej plikowy odpowiednik /etc/ld.so.preload pozwalają na załadowanie przez glibc DOWOLNEJ dynamicznej biblioteki zewnętrznej w ciało wykonywanego programu przed jego wykonaniem. Odpowiednie użycie tego mechanizmu może pozwolić administratorowi serwera na zabezpieczenie dziurawego programu bez modyfikacji jego kodu (co niekiedy jest jedyną opcją).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gnu on Brainfork</title>
+    <link>https://brainfork.org/tags/gnu/</link>
+    <description>Recent content in gnu on Brainfork</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Sun, 01 Mar 2015 00:00:00 +0200</lastBuildDate><atom:link href="https://brainfork.org/tags/gnu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apple Magic Mouse — cena za logo, czy jakość? (&#43; aktualizacja)</title>
+      <link>https://brainfork.org/posts/20150301-magic-mouse/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20150301-magic-mouse/</guid>
+      <description>Nigdy nie byłem fanbojem marki Apple i do większości jej produktów podchodziłem z daleko idącą ostrożnością.
+Główną przyczyną było doświadczenie z nieco starszymi modelami iMac — pierwsza seria z systemami OS X — oraz osprzętem do nich. Komputery z którymi miałem styczność były ładnie zaprojektowane, ale ograniczone zarówno od strony sprzętowej, jak i systemowej, a parametry jakie oferowały miały się nijak do porównywalnych cenowo pecetów. Do dzisiaj jednym z wspomnień które mnie odrzuca jest mysz Mighty Mouse (nie mylić z Magic Mouse), która syfiła się jak diabli, a do wyczyszczenia niezbędne było rozerwanie jej na części — tak, rozerwanie, nie jakieś rozkręcanie.</description>
+    </item>
+    
+    <item>
+      <title>O SystemD słów kilka…</title>
+      <link>https://brainfork.org/posts/20141119-systemd/</link>
+      <pubDate>Wed, 19 Nov 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20141119-systemd/</guid>
+      <description>SystemD, pomimo wielu zalet spotyka się ze znaczym oporem wśród developerów jak i użytkowników wielu dystrybucji GNU/Linux. Problem jest na tyle poważny, że developerzy zaczynają masowo rezygnować z współtworzenia dystrybucji, choć moim zdaniem te reakcje są sporo przesadzone, a zmiana wychodzi jedynie wszystkim na dobre.
+Jedną z najczęściej wymienianych wad jest brak podążania za nieformalnym standardem KISS. Według mnie jest to bzdurą, gdyż pomimo swojej złożoności za każdą jego funkcję odpowiadają osobne demony, które jednak są od początku przystosowane do wzajemnej współpracy.</description>
+    </item>
+    
+  </channel>
+</rss>

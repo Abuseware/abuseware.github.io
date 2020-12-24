@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="pl">
+
+    <meta name="author" content="Licho">
+    <meta name="description" content="Aktualnie pracuję nad przekształceniem całego projektu w system wewnętrznych czujników które mogłyby być rozsiane w różnych miejscach domu. Koncept oparłem o układy nRF24L01 które są tanie, posiadając przy tym zadowalające parametry i nie wymuszają podłączania każdego czujnika do sieci Wi-Fi, co mogłoby spowodować spadek wydajności całej sieci, szczególnie przy większej liczbie mocno oddalonych od siebie czujek. Dodałem także obsługę układów Microchip MCP9700A, które są o wiele tańsze od Maximowych DS18B20, a przy odpowiedniej kalibracji i multisamplingu dają bardzo dobre rezultaty.">
+    <meta name="keywords" content="blog,sysadmin,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Własna stacja pogodowa - część trzecia"/>
+<meta name="twitter:description" content="Aktualnie pracuję nad przekształceniem całego projektu w system wewnętrznych czujników które mogłyby być rozsiane w różnych miejscach domu. Koncept oparłem o układy nRF24L01 które są tanie, posiadając przy tym zadowalające parametry i nie wymuszają podłączania każdego czujnika do sieci Wi-Fi, co mogłoby spowodować spadek wydajności całej sieci, szczególnie przy większej liczbie mocno oddalonych od siebie czujek. Dodałem także obsługę układów Microchip MCP9700A, które są o wiele tańsze od Maximowych DS18B20, a przy odpowiedniej kalibracji i multisamplingu dają bardzo dobre rezultaty."/>
+
+    <meta property="og:title" content="Własna stacja pogodowa - część trzecia" />
+<meta property="og:description" content="Aktualnie pracuję nad przekształceniem całego projektu w system wewnętrznych czujników które mogłyby być rozsiane w różnych miejscach domu. Koncept oparłem o układy nRF24L01 które są tanie, posiadając przy tym zadowalające parametry i nie wymuszają podłączania każdego czujnika do sieci Wi-Fi, co mogłoby spowodować spadek wydajności całej sieci, szczególnie przy większej liczbie mocno oddalonych od siebie czujek. Dodałem także obsługę układów Microchip MCP9700A, które są o wiele tańsze od Maximowych DS18B20, a przy odpowiedniej kalibracji i multisamplingu dają bardzo dobre rezultaty." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://brainfork.org/posts/20190216-weather-station-3/" />
+<meta property="article:published_time" content="2019-02-16T00:00:00+02:00" />
+<meta property="article:modified_time" content="2019-02-16T00:00:00+02:00" />
+
+
+    <title>
+  Własna stacja pogodowa - część trzecia · Brainfork
+</title>
+
+    
+      <link rel="canonical" href="https://brainfork.org/posts/20190216-weather-station-3/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.1.7/css/fork-awesome.min.css" integrity="sha512-9QjPqX/aCNwEQDyMqqMluNOSsHxTwOJNO3d4m5aUeNbyOPm8RcBA5hCUhvGmKFtSmQYGajqPopGtD60FWiWUwg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.f01c647a0d25b40da992a37c3376291185eed8a50ced8c26cc2c0bcfe38c97df.css" integrity="sha256-8Bxkeg0ltA2pkqN8M3YpEYXu2KUM7YwmzCwLz&#43;OMl98=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.79.0" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Brainfork
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/categories/programowanie/">Programowanie</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/categories/elektronika/">Elektronika</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/categories/sysadmin/">Linux/FreeBSD</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/categories/diy/">DIY</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/categories/hardware/">Hardware</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/categories/felietony/">Felietony</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">/</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Własna stacja pogodowa - część trzecia</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2019-02-16T00:00:00&#43;02:00'>
+                February 16, 2019
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              2 min czytania
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="/categories/elektronika/">Elektronika</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <a href="/tags/atmel/">atmel</a>
+      <span class="separator">•</span>
+    <a href="/tags/atmega/">atmega</a>
+      <span class="separator">•</span>
+    <a href="/tags/avr/">avr</a>
+      <span class="separator">•</span>
+    <a href="/tags/arduino/">arduino</a>
+      <span class="separator">•</span>
+    <a href="/tags/pogoda/">pogoda</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p>Aktualnie pracuję nad przekształceniem całego projektu w system wewnętrznych
+czujników które mogłyby być rozsiane w różnych miejscach domu. Koncept oparłem
+o układy nRF24L01 które są tanie, posiadając przy tym zadowalające parametry i
+nie wymuszają podłączania każdego czujnika do sieci Wi-Fi, co mogłoby
+spowodować spadek wydajności całej sieci, szczególnie przy większej liczbie
+mocno oddalonych od siebie czujek.  Dodałem także obsługę układów Microchip
+MCP9700A, które są o wiele tańsze od Maximowych DS18B20, a przy odpowiedniej
+kalibracji i multisamplingu dają bardzo dobre rezultaty. Dodatkowo mają
+mniejsze wymagania prądowe i pracują przy niższych napięciach, co wiąże się z
+drugim rozwiązaniem — użyciem tanich i popularnych akumulatorków 18650 jako
+podstawowego źródła zasilania. Teoretycznie takie rozwiązanie powinno
+wystarczyć na ciągłą pracę przez ponad miesiąc na jednym ogniwie 3500mAh.
+Wymusiło to przejście na Arduino w wersji 3v3 które jest wolniejsze, ale nie
+wpływa to negatywnie na pracę przy tak prostym zadaniu.</p>
+<p>Jako host całej sieci pracuje Raspberry Pi Zero W pod kontrolą Alpine Linux
+oraz podpiętym nRF24L01 bezpośrednio do natywnego SPI. Istnieje opcja użycia
+dowolnego sprzętu, jednak wiązałoby się to z użyciem nieporęcznych adapterów i
+komunikacji po UART. Host co określony przedział czasowy rozsyła do wszystkich
+podpiętych urządzeń żądanie pobrania danych z sensorów oraz pomiar naładowania
+akumulatorów, a następnie umieszcza dane w bazie PostgreSQL. Pewnie niektórzy
+powiedzą, że jestem głupi i powinienem używać InfluxDB albo innego silnika
+skierowanego tylko do tego typu zadań, ale prawdą jest, że są one bardzo
+ograniczone w swych bezpłatnych wersjach i/lub nie są zbyt wydajne. PostgreSQL
+dodatkowo znam i lubię, a jego wydajność jest naprawdę ponadprzeciętna.</p>
+<p>Dane z bazy są zaciągane poprzez Grafanę, która może i marnuje się do tak
+prostych zastosowań, ale jest wygodna i prosta w obsłudze.</p>
+<figure>
+    <img src="/assets/weather-station/grafana.png"
+         alt="Przykładowy panel Grafany reprezentujący pomiary z pojedynczego czujnika."/> <figcaption>
+            <p>Przykładowy panel Grafany reprezentujący pomiary z pojedynczego czujnika.</p>
+        </figcaption>
+</figure>
+
+<h2 id="lista-komponentów">Lista komponentów:</h2>
+<h3 id="czujnik">Czujnik</h3>
+<ul>
+<li>Arduino Pro Mini 3v3 ( ~$2)</li>
+<li>MCP9700A (~$0.3) LUB DS18B20 (~$0.6)</li>
+<li>nRF24L01 (~$0.8)</li>
+<li>Moduł ładowania dla ogniwa 18650 (~$0.3)</li>
+<li>Ogniwo typu 18650 ($2 — $15, zależne od pojemności i marki)</li>
+<li>Dwa/trzy rezystory i kilka kondensatorów foliowych lub ceramicznych</li>
+</ul>
+<p>Nie uwzględniając kosztu obudowy całość wyniesie około $6,5 (25zł) przy cenach
+z AliExpress, w przypadku robienia zakupów w Polsce koszt wzrośnie mniej więcej
+czterokrotnie.</p>
+<h3 id="stacja-bazowa">Stacja bazowa</h3>
+<ul>
+<li>Raspberry Pi Zero W (~$15)</li>
+<li>nRF24L01 (~$0.8)</li>
+</ul>
+<p>Pomijając znów akcesoria i obudowę wychodzi $15,8 (60zł), a RPi może służyć w
+tym samym czasie do innych celów. W tym wypadku wyjątkowo ceny w Polsce są
+porównywalne z tymi z AliExpress, choć z dostępnośćią RPi może być różnie.</p>
+<figure>
+    <img src="/assets/weather-station/prototype-2.jpg"
+         alt="Prototyp, w oczekiwaniu na moduły radiowe wykorzystałem prądożerny HC-05."/> <figcaption>
+            <p>Prototyp, w oczekiwaniu na moduły radiowe wykorzystałem prądożerny HC-05.</p>
+        </figcaption>
+</figure>
+
+<p>Więcej screenów, zdjęcia oraz sam kod udostępnię w kolejnym poście, gdy już
+skompletuję wszystkie podzespoły.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+      
+        ©
+        
+        2020
+         Licho 
+      
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+      
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

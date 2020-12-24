@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DIY on Brainfork</title>
+    <link>https://brainfork.org/categories/diy/</link>
+    <description>Recent content in DIY on Brainfork</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Mon, 14 Dec 2015 00:00:00 +0200</lastBuildDate><atom:link href="https://brainfork.org/categories/diy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tworzymy własny liquid do e-papierosa</title>
+      <link>https://brainfork.org/posts/20151214-liquid/</link>
+      <pubDate>Mon, 14 Dec 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20151214-liquid/</guid>
+      <description>Dlaczego warto przesiąść się z gotowych liquidów sklepowych na własnoręcznie tworzone? Powodów może być wiele, od możliwości niemal nieograniczonego wyboru aromatu i mocy, po cenę produktu.
+Cena Typowy liquid sklepowy to koszt od 10 do 30zł za 10ml. Nie jest to może zaporowe, ale dla mnie jednym z powodów przesiadki na elektronicznego papierosa była kwestia ograniczenia wydatków z tym związanych. Sklepowe liquidy i tak wychodzą taniej niż klasyczne papierosy, ale… można oszczędzić jeszcze bardziej, nic nie tracąc.</description>
+    </item>
+    
+    <item>
+      <title>Naprawa przepalonego zespołu grzewczego P1</title>
+      <link>https://brainfork.org/posts/20140822-grzalka-p1/</link>
+      <pubDate>Fri, 22 Aug 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20140822-grzalka-p1/</guid>
+      <description>Produkty marki P1 cechują się niską ceną oraz… wysoką awaryjnością. Patrząc na produkt który jest tematem niniejszego artykułu i porównując go z alternatywami oferowanymi przez resztę firm można zauważyć, że ograniczenie ceny elementu było kluczowe przy jego projektowaniu. Z tego też względu “waciki” zostały zmniejszone do kikutów długości około centymetra a cały zespół grzewczy jest zamontowany pod zbiorniczkiem liquidu. Rozwiązanie ciekawe i zmniejsza prawdopodobieństwo spalenia grzałki, jednak jakość wykonania elementu i tak sprawia, że nie przetrwał on u mnie dłużej niż miesiąc (producent nie obiecywał dłuższego czasu pracy).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>felieton on Brainfork</title>
+    <link>https://brainfork.org/tags/felieton/</link>
+    <description>Recent content in felieton on Brainfork</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Thu, 12 Nov 2015 00:00:00 +0200</lastBuildDate><atom:link href="https://brainfork.org/tags/felieton/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>USA, NSA i CISA — małe wielkie zmiany w internecie i jego prywatności…</title>
+      <link>https://brainfork.org/posts/20151112-prywatnosc/</link>
+      <pubDate>Thu, 12 Nov 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20151112-prywatnosc/</guid>
+      <description>27 października 2015 w senacie USA poparta została większością głosów propozycja ustawy Cybersecurity Information Sharing Act (CISA). W okół niej jeszcze przed głosowaniem było wiele szumu, jak i protestów.
+A dlaczego?
+CISA, cytując za szkicem tejże ustawy ma na celu “improve cybersecurity in the United States through enhanced sharing of information about cybersecurity threats, and for other purposes”, czyli tłumacząc — poprawić poziom cyberbezpieczeństwa na terenie USA poprzez ulepszony przepływ informacji o zagrożeniach, oraz w innych celach.</description>
+    </item>
+    
+    <item>
+      <title>Jak (nie) zostać programistą…</title>
+      <link>https://brainfork.org/posts/20150806-programista/</link>
+      <pubDate>Thu, 06 Aug 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20150806-programista/</guid>
+      <description>Opiszę Wam jak to (nie) zostałem programistą, a na koniec udzielę też kilku rad w tym temacie.
+Mając lat siedem dostałem komputer… Ot, stary używany złom którego używałem głównie do grania w to co gimby nie znają. Internetu za bardzo nie było, a jak się już pojawił to kosztował tyle, że opłacało się go używać jedynie w porach, w których już dawno spałem. W międzyczasie ojciec uraczył mnie prezentem w postaci pierwszego numeru czasopisma o podstawach programowania wydawanym przez istniejące do dziś wydawnictwo szczycące się różnego rodzaju zestawami do samodzielnego montażu i częściami do nich, a także książkami powiązanymi tematycznie i/lub gatunkowo.</description>
+    </item>
+    
+  </channel>
+</rss>

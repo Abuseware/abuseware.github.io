@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>osdev on Brainfork</title>
+    <link>https://brainfork.org/tags/osdev/</link>
+    <description>Recent content in osdev on Brainfork</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Sun, 30 Dec 2018 00:00:00 +0200</lastBuildDate><atom:link href="https://brainfork.org/tags/osdev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OS Dev</title>
+      <link>https://brainfork.org/posts/20181230-osdev/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20181230-osdev/</guid>
+      <description>Kolejny dziwny projekt, jakich wiele…
+Nigdy o nim tutaj nie wspominałem, a trwa już dobre 5 lat, więc może warto by było zacząć od odrobiny wykopalisk historycznych. W 2014r. wpadłem na pomysł, żeby w ramach podszkolenia się w Assembly dla procesorów x86 napisać prosty bootloader. Oryginalnie powiązany z moim “panic button” mając na celu nadpisania bootloadera systemu z szyfrowanym dyskiem (LUKS o ile mnie pamięć nie myli), startował PC w trybie 16bit i wyświetlał prostego ASCII-arta.</description>
+    </item>
+    
+  </channel>
+</rss>

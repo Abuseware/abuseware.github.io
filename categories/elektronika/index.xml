@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elektronika on Brainfork</title>
+    <link>https://brainfork.org/categories/elektronika/</link>
+    <description>Recent content in Elektronika on Brainfork</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Sat, 16 Mar 2019 00:00:00 +0200</lastBuildDate><atom:link href="https://brainfork.org/categories/elektronika/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Własna stacja pogodowa — część czwarta i ostatnia</title>
+      <link>https://brainfork.org/posts/20190316-weather-station-4/</link>
+      <pubDate>Sat, 16 Mar 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20190316-weather-station-4/</guid>
+      <description>Wreszcie dotarły do mnie wszystkie elementy układanki i zacząłem składać czujki w zgrabną całość. Jeśli jeszcze raz ktoś mi powie, że rezystory o rozmiarach 0,6 x 0,3mm są fajne do ręcznego lutowania, to mu przylutuję…
+Czujnik temperatury Jako podstawy czujki użyłem płytki prototypowej do której przymocowałem wszystkie elementy — Arduino Pro Mini oraz nRF24l01 za pomocą goldpinów które później skróciłem aby całość mogła dość nisko wejść w obudowę. W pobliżu pinu piątego umiejscowiłem DS18b20 oraz rezystor SMD 0603 4k7 podciągający linię sygnałową do stanu wysokiego.</description>
+    </item>
+    
+    <item>
+      <title>Własna stacja pogodowa - część trzecia</title>
+      <link>https://brainfork.org/posts/20190216-weather-station-3/</link>
+      <pubDate>Sat, 16 Feb 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20190216-weather-station-3/</guid>
+      <description>Aktualnie pracuję nad przekształceniem całego projektu w system wewnętrznych czujników które mogłyby być rozsiane w różnych miejscach domu. Koncept oparłem o układy nRF24L01 które są tanie, posiadając przy tym zadowalające parametry i nie wymuszają podłączania każdego czujnika do sieci Wi-Fi, co mogłoby spowodować spadek wydajności całej sieci, szczególnie przy większej liczbie mocno oddalonych od siebie czujek. Dodałem także obsługę układów Microchip MCP9700A, które są o wiele tańsze od Maximowych DS18B20, a przy odpowiedniej kalibracji i multisamplingu dają bardzo dobre rezultaty.</description>
+    </item>
+    
+    <item>
+      <title>Własna stacja pogodowa — changelog</title>
+      <link>https://brainfork.org/posts/20180304-weather-station-2/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20180304-weather-station-2/</guid>
+      <description>W związku z kilkoma błędami w wykonaniu które wyszły na jaw po publikacji ostatniego posta chciałbym zamieścić krótką erratę, jak i listę zmian które zaszły.
+Od strony sprzętowej największą pomyłką okazało się zamknięcie czujnika w metalowej puszce — o ile w nocy spełnia swoje zadanie, choć jak zrozumiałem po dyskusjach z kilkoma osobami które mają trochę większe doświadczenie w temacie zupełnie niepotrzebnie, o tyle w momentach wystawienia na bezpośrednie działanie promieni słonecznych działa ona lepiej niż nie jedna szklarnia i przekłamuje pomiary o dobre kilkanaście stopni.</description>
+    </item>
+    
+    <item>
+      <title>Początki z Arduino, czyli własna stacja pogodowa</title>
+      <link>https://brainfork.org/posts/20180228-weather-station/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20180228-weather-station/</guid>
+      <description>Chciałbym Wam przedstawić mój nowy projekt zrobiony z okazji zakupu pierwszego Arduino, a mianowicie prostą do bólu stację logującą temperaturę z czujnika DS18b20 do pliku oraz dalszą możliwość obróbki takiego pliku w celu ciekawej reprezentacji.
+Stacja składa się z:
+ Arduino Pro Mini, lub dowolnej innej wersji — np. chińskiej DS18b20 — właściwy termometr DS1307 — RTC używany do dokładniejszego pomiaru czasu Dowolna karta SD/microSD  Szczegółów wykonania urządzenia opisywać nie będę, nie jest ono zbyt skomplikowane.</description>
+    </item>
+    
+    <item>
+      <title>Pong</title>
+      <link>https://brainfork.org/posts/20170404-pong/</link>
+      <pubDate>Tue, 04 Apr 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20170404-pong/</guid>
+      <description>Dla “potomnych” wrzucam zaległe nagrania z projektu tworzonego około rok temu.
+Prototyp   Wersja końcowa   Jak widać nic zjawiskowego, ot kolejny klon ponga z pięknym ghostingiem spowodowanym świetnej jakości ekranem starej Nokii.</description>
+    </item>
+    
+    <item>
+      <title>LCD HD47780 — Pierwsze testy</title>
+      <link>https://brainfork.org/posts/20150104-hd47780/</link>
+      <pubDate>Sun, 04 Jan 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20150104-hd47780/</guid>
+      <description>Z drobnym poślizgiem spowodowanym świętami dotarł do mnie wyświetlacz LCD 2x16 ze sterownikiem HD47780 — popularny i dość tani, a po dolutowaniu goldpinów pięknie wpasowujący się w chlebodeskę.
+Zalety i wady Do niewątpliwych zalet tego wyświetlacza należy zaliczyć prostotę komunikacji — wystarczy od 6 do 11 pinów przy standardowym montażu, bądź dwa przy wykorzystaniu multipleksera portów na I²C. Komunikacja odbywa się poprzez 4 lub 8 bitową szynę danych, plus 2–3 linie kontrolne.</description>
+    </item>
+    
+    <item>
+      <title>Retarded Blinkenlights</title>
+      <link>https://brainfork.org/posts/20141230-blinkenlight/</link>
+      <pubDate>Tue, 30 Dec 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20141230-blinkenlight/</guid>
+      <description>Jeden z pierwszych moich projektów, jednak staram się by pomimo mojej niewiedzy wyglądał tak, jak powinien i działał na tyle, by nie stanowić alternatywy dla materiałów wybuchowych.
+Projekt 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93  #include &amp;lt;avr/io.</description>
+    </item>
+    
+    <item>
+      <title>Spotkanie z Atmel ATmega8 — pierwsze wrażenia</title>
+      <link>https://brainfork.org/posts/20141218-atmega/</link>
+      <pubDate>Thu, 18 Dec 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20141218-atmega/</guid>
+      <description>TL;DR — Bawię się ATmegą8a, przyszedłem pomarudzić.
+Od zawsze byłem osobą ciekawską, może o tyle jest to zaletą, że bardziej niż życie sąsiada interesowało mnie to jak działa sprzęt (w szczególności elektroniczny) który mnie otacza. Przez wiele lat na zainteresowaniu i studiowaniu bebechów — często ze skutkiem fatalnym dla samych urządzeń — przygoda z tym tematem się kończyła, zanikając pod presją kurczącego się wolnego czasu, jak i zużywaniem go na naukę programowania i administracji systemami uniksowatymi.</description>
+    </item>
+    
+    <item>
+      <title>Rodem z gier komputerowych</title>
+      <link>https://brainfork.org/posts/20130225-rodem-z-gier-komputerowych/</link>
+      <pubDate>Mon, 25 Feb 2013 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20130225-rodem-z-gier-komputerowych/</guid>
+      <description>Na filmach tak elegancko to wygląda, wchodzi człowiek ubrany w skórę, podłącza kilka kabelków do klawiatury i drzwi otwarte. Samo złamanie kodu w teorii nie jest specjalnie trudne. Więc może jest część prawdy w szybkim otwieraniu drzwi?
+Klawiatura przeglądana sprzętowo to raczej przeżytek, ale można fajnie pokazać pewne rzeczy. Liczniki cyfrowe (tu: mod4) pracują wpisując wszystkie możliwe kombinacje na wejścia adresowe komutatorów (Demultiplekser, Multiplekser), przeglądających kolejne przyciski (przecięcia wyjść/wejść). Przyciski na przecięciu wyjść demultipleksera i wejść multipleksera wduszone zwierają je ze sobą, multiplekser ustawia na wyjściu poziom niski, do rejestru wpisywana jest wartość liczników.</description>
+    </item>
+    
+  </channel>
+</rss>

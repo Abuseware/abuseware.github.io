@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hardware on Brainfork</title>
+    <link>https://brainfork.org/categories/hardware/</link>
+    <description>Recent content in Hardware on Brainfork</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Mon, 08 Feb 2016 00:00:00 +0200</lastBuildDate><atom:link href="https://brainfork.org/categories/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eleaf iStick TC60W kit — test</title>
+      <link>https://brainfork.org/posts/20160208-eleaf-istick/</link>
+      <pubDate>Mon, 08 Feb 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20160208-eleaf-istick/</guid>
+      <description>Niedawno zdecydowałem się wymienić mojego Provog Venture 2 na coś nowszego. Wybór padł na zestaw firmy Eleaf — mod iStick TC60W w wersji Brushed Silver wraz z atomizerem Lemo 2.
+W skład zestawu wchodzi mod wraz z wymiennymi panelami bocznymi (u mnie były to panele czarne, dostępne są inne wersje kolorystyczne), atomizer, trzy zespoły grzewcze (nichromowy 0.3Ω, niklowy 0.15Ω oraz tytanowy 0.5Ω), zapasowe uszczelki oraz wielojęzyczne instrukcje obsługi, niestety bez języka polskiego.</description>
+    </item>
+    
+    <item>
+      <title>PROVOG Venture 2 — Wrażenia</title>
+      <link>https://brainfork.org/posts/20150831-provog-venture-2/</link>
+      <pubDate>Mon, 31 Aug 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20150831-provog-venture-2/</guid>
+      <description>Tekst jest aktualizacją do PROVOG Venture 2 — Test.
+Pół roku później… W trakcie ponad półrocznego użytkowania wystąpiły:
+ Częściowe starcie posrebrzenia z boków dołu papierosa Delikatne odbarwienia niebieskiego lakieru Przetarcia w lakierze pokrywającym górną część tulei Luzy na połączeniach tulei z jej gwintami oraz pomiędzy przyłączem baterii i jej korpusem Przepalenie 4 (włącznie z oryginalnym) zespołów grzewczych  Oprócz zespołu grzewczego żadna inna część nie była wymieniana, tak więc żywotność urządzenia jest bardzo dobra — szczególnie, że e-papierosa noszę w kieszeni.</description>
+    </item>
+    
+    <item>
+      <title>Apple Magic Mouse — cena za logo, czy jakość? (&#43; aktualizacja)</title>
+      <link>https://brainfork.org/posts/20150301-magic-mouse/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20150301-magic-mouse/</guid>
+      <description>Nigdy nie byłem fanbojem marki Apple i do większości jej produktów podchodziłem z daleko idącą ostrożnością.
+Główną przyczyną było doświadczenie z nieco starszymi modelami iMac — pierwsza seria z systemami OS X — oraz osprzętem do nich. Komputery z którymi miałem styczność były ładnie zaprojektowane, ale ograniczone zarówno od strony sprzętowej, jak i systemowej, a parametry jakie oferowały miały się nijak do porównywalnych cenowo pecetów. Do dzisiaj jednym z wspomnień które mnie odrzuca jest mysz Mighty Mouse (nie mylić z Magic Mouse), która syfiła się jak diabli, a do wyczyszczenia niezbędne było rozerwanie jej na części — tak, rozerwanie, nie jakieś rozkręcanie.</description>
+    </item>
+    
+    <item>
+      <title>PROVOG Venture 2 — Test</title>
+      <link>https://brainfork.org/posts/20150112-provog-venture-2/</link>
+      <pubDate>Mon, 12 Jan 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20150112-provog-venture-2/</guid>
+      <description>Po ponad rocznym używaniu e-papierosa marki P1 (Blister) i licznych problemach oraz stałym spadkiem jakości części wymiennych zdecydowałem się na zakup nowego, tym razem nie “polskiej” produkcji (Made in china aż biło po oczach). Poniższy test będzie więc również porównaniem obu produktów.
+Unboxing Venture 2, w wersji Azure zakupiłem za 119 PLN w jednym z punktów marki eSmokingWorld. Opakowany został ładnym pudełkiem z przezroczystą “szybką” pozwalającą ujrzeć nasz egzemplarz przed zakupem.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programowanie on Brainfork</title>
+    <link>https://brainfork.org/categories/programowanie/</link>
+    <description>Recent content in Programowanie on Brainfork</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Sun, 30 Dec 2018 00:00:01 +0200</lastBuildDate><atom:link href="https://brainfork.org/categories/programowanie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Komu grę na NESa?</title>
+      <link>https://brainfork.org/posts/20181230-nes/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:01 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20181230-nes/</guid>
+      <description>Własny system operacyjny na x86? A na co to komu, trzeba myśleć przyszłościowo, napiszmy “grę” na NES, bardziej znanego u nas jako Pegasus.
+Całość, choć rozpoczęta w Assembly (tym razem dla MOS 6502), szybko została przepisana na C. Na szczęście istnieje całkiem przyjemny kompilator napisany z myślą o starszych urządzeniach o nazwie CC65, choć do GCC czy Clang się nie umywa - to pamiętając o pewnych niestandardowych zachowaniach oraz tym, że niektóre operacje generują kod przy którym obsługa operacji matematycznych na “bignumach” na pecetach wygląda żałośnie, da się tak programować - całość powiązana jest dość mocno z ograniczeniami samego procesora.</description>
+    </item>
+    
+    <item>
+      <title>OS Dev</title>
+      <link>https://brainfork.org/posts/20181230-osdev/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20181230-osdev/</guid>
+      <description>Kolejny dziwny projekt, jakich wiele…
+Nigdy o nim tutaj nie wspominałem, a trwa już dobre 5 lat, więc może warto by było zacząć od odrobiny wykopalisk historycznych. W 2014r. wpadłem na pomysł, żeby w ramach podszkolenia się w Assembly dla procesorów x86 napisać prosty bootloader. Oryginalnie powiązany z moim “panic button” mając na celu nadpisania bootloadera systemu z szyfrowanym dyskiem (LUKS o ile mnie pamięć nie myli), startował PC w trybie 16bit i wyświetlał prostego ASCII-arta.</description>
+    </item>
+    
+    <item>
+      <title>Jak (nie) zostać programistą…</title>
+      <link>https://brainfork.org/posts/20150806-programista/</link>
+      <pubDate>Thu, 06 Aug 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20150806-programista/</guid>
+      <description>Opiszę Wam jak to (nie) zostałem programistą, a na koniec udzielę też kilku rad w tym temacie.
+Mając lat siedem dostałem komputer… Ot, stary używany złom którego używałem głównie do grania w to co gimby nie znają. Internetu za bardzo nie było, a jak się już pojawił to kosztował tyle, że opłacało się go używać jedynie w porach, w których już dawno spałem. W międzyczasie ojciec uraczył mnie prezentem w postaci pierwszego numeru czasopisma o podstawach programowania wydawanym przez istniejące do dziś wydawnictwo szczycące się różnego rodzaju zestawami do samodzielnego montażu i częściami do nich, a także książkami powiązanymi tematycznie i/lub gatunkowo.</description>
+    </item>
+    
+    <item>
+      <title>Garbage Collector dla C i C&#43;&#43;</title>
+      <link>https://brainfork.org/posts/20130225-garbage-collector/</link>
+      <pubDate>Mon, 25 Feb 2013 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20130225-garbage-collector/</guid>
+      <description>Prostota C Język C, z założenia skupiający się na prostocie w swej budowie obarcza programistę sporą ilością pracy i koniecznością dbania o detale, o których istnieniu możemy zapomnieć pisząc w nowocześniejszych językach.
+Takie podejście pozwala lepiej zrozumieć maszyny i ich tendencję do bycia głupim, niewykwalifikowanym, choć dokładnym pracownikiem. O ile pozwala to, na lepsze wykorzystanie zasobów maszyny i dokładniejszą optymalizację, to trudno nazwać to zadanie wygodnym.
+Kolekcjonowanie odpadków Programiści języków takich jak C#, Java czy Python o alokację i zwalnianie pamięci troszczyć się nie muszą — tym zadaniem obarczone jest środowisko uruchomieniowe, które dba o sprzątanie całego bajzlu który zostawił po sobie programista, dlaczego więc nie wykorzystać podobnego mechanizmu w C?</description>
+    </item>
+    
+  </channel>
+</rss>

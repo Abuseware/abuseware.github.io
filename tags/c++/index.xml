@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>c&#43;&#43; on Brainfork</title>
+    <link>https://brainfork.org/tags/c&#43;&#43;/</link>
+    <description>Recent content in c&#43;&#43; on Brainfork</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Mon, 25 Feb 2013 00:00:00 +0200</lastBuildDate><atom:link href="https://brainfork.org/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Garbage Collector dla C i C&#43;&#43;</title>
+      <link>https://brainfork.org/posts/20130225-garbage-collector/</link>
+      <pubDate>Mon, 25 Feb 2013 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20130225-garbage-collector/</guid>
+      <description>Prostota C Język C, z założenia skupiający się na prostocie w swej budowie obarcza programistę sporą ilością pracy i koniecznością dbania o detale, o których istnieniu możemy zapomnieć pisząc w nowocześniejszych językach.
+Takie podejście pozwala lepiej zrozumieć maszyny i ich tendencję do bycia głupim, niewykwalifikowanym, choć dokładnym pracownikiem. O ile pozwala to, na lepsze wykorzystanie zasobów maszyny i dokładniejszą optymalizację, to trudno nazwać to zadanie wygodnym.
+Kolekcjonowanie odpadków Programiści języków takich jak C#, Java czy Python o alokację i zwalnianie pamięci troszczyć się nie muszą — tym zadaniem obarczone jest środowisko uruchomieniowe, które dba o sprzątanie całego bajzlu który zostawił po sobie programista, dlaczego więc nie wykorzystać podobnego mechanizmu w C?</description>
+    </item>
+    
+  </channel>
+</rss>

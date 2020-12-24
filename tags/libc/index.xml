@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>libc on Brainfork</title>
+    <link>https://brainfork.org/tags/libc/</link>
+    <description>Recent content in libc on Brainfork</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Tue, 12 Mar 2013 00:00:00 +0200</lastBuildDate><atom:link href="https://brainfork.org/tags/libc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zmienna środowiskowa LD_PRELOAD</title>
+      <link>https://brainfork.org/posts/20130312-zmienna-srodowiskowa-ld-preload/</link>
+      <pubDate>Tue, 12 Mar 2013 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20130312-zmienna-srodowiskowa-ld-preload/</guid>
+      <description>Niewielu początkujących programistów i administratorów wie o tej zmiennej, a warto przyjrzeć się bliżej jej możliwościom, które wprowadzają tyle samo dobrego, co i złego.
+Co to jest? Zmienna środowiskowa LD_PRELOAD, oraz jej plikowy odpowiednik /etc/ld.so.preload pozwalają na załadowanie przez glibc DOWOLNEJ dynamicznej biblioteki zewnętrznej w ciało wykonywanego programu przed jego wykonaniem. Odpowiednie użycie tego mechanizmu może pozwolić administratorowi serwera na zabezpieczenie dziurawego programu bez modyfikacji jego kodu (co niekiedy jest jedyną opcją).</description>
+    </item>
+    
+  </channel>
+</rss>

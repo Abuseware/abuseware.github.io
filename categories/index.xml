@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Brainfork</title>
+    <link>https://brainfork.org/categories/</link>
+    <description>Recent content in Categories on Brainfork</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Sat, 16 Mar 2019 00:00:00 +0200</lastBuildDate><atom:link href="https://brainfork.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elektronika</title>
+      <link>https://brainfork.org/categories/elektronika/</link>
+      <pubDate>Sat, 16 Mar 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/categories/elektronika/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programowanie</title>
+      <link>https://brainfork.org/categories/programowanie/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:01 +0200</pubDate>
+      
+      <guid>https://brainfork.org/categories/programowanie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Felietony</title>
+      <link>https://brainfork.org/categories/felietony/</link>
+      <pubDate>Fri, 29 Jul 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/categories/felietony/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardware</title>
+      <link>https://brainfork.org/categories/hardware/</link>
+      <pubDate>Mon, 08 Feb 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/categories/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DIY</title>
+      <link>https://brainfork.org/categories/diy/</link>
+      <pubDate>Mon, 14 Dec 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/categories/diy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sysadmin</title>
+      <link>https://brainfork.org/categories/sysadmin/</link>
+      <pubDate>Thu, 09 Jul 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/categories/sysadmin/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

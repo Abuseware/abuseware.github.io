@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>debian on Brainfork</title>
+    <link>https://brainfork.org/tags/debian/</link>
+    <description>Recent content in debian on Brainfork</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Wed, 19 Nov 2014 00:00:00 +0200</lastBuildDate><atom:link href="https://brainfork.org/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>O SystemD słów kilka…</title>
+      <link>https://brainfork.org/posts/20141119-systemd/</link>
+      <pubDate>Wed, 19 Nov 2014 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20141119-systemd/</guid>
+      <description>SystemD, pomimo wielu zalet spotyka się ze znaczym oporem wśród developerów jak i użytkowników wielu dystrybucji GNU/Linux. Problem jest na tyle poważny, że developerzy zaczynają masowo rezygnować z współtworzenia dystrybucji, choć moim zdaniem te reakcje są sporo przesadzone, a zmiana wychodzi jedynie wszystkim na dobre.
+Jedną z najczęściej wymienianych wad jest brak podążania za nieformalnym standardem KISS. Według mnie jest to bzdurą, gdyż pomimo swojej złożoności za każdą jego funkcję odpowiadają osobne demony, które jednak są od początku przystosowane do wzajemnej współpracy.</description>
+    </item>
+    
+  </channel>
+</rss>
