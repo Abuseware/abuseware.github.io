@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="pl">
+
+    <meta name="author" content="Licho">
+    <meta name="description" content="Opiszę Wam jak to (nie) zostałem programistą, a na koniec udzielę też kilku rad w tym temacie.
+Mając lat siedem dostałem komputer… Ot, stary używany złom którego używałem głównie do grania w to co gimby nie znają. Internetu za bardzo nie było, a jak się już pojawił to kosztował tyle, że opłacało się go używać jedynie w porach, w których już dawno spałem. W międzyczasie ojciec uraczył mnie prezentem w postaci pierwszego numeru czasopisma o podstawach programowania wydawanym przez istniejące do dziś wydawnictwo szczycące się różnego rodzaju zestawami do samodzielnego montażu i częściami do nich, a także książkami powiązanymi tematycznie i/lub gatunkowo.">
+    <meta name="keywords" content="blog,sysadmin,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Jak (nie) zostać programistą…"/>
+<meta name="twitter:description" content="Opiszę Wam jak to (nie) zostałem programistą, a na koniec udzielę też kilku rad w tym temacie.
+Mając lat siedem dostałem komputer… Ot, stary używany złom którego używałem głównie do grania w to co gimby nie znają. Internetu za bardzo nie było, a jak się już pojawił to kosztował tyle, że opłacało się go używać jedynie w porach, w których już dawno spałem. W międzyczasie ojciec uraczył mnie prezentem w postaci pierwszego numeru czasopisma o podstawach programowania wydawanym przez istniejące do dziś wydawnictwo szczycące się różnego rodzaju zestawami do samodzielnego montażu i częściami do nich, a także książkami powiązanymi tematycznie i/lub gatunkowo."/>
+
+    <meta property="og:title" content="Jak (nie) zostać programistą…" />
+<meta property="og:description" content="Opiszę Wam jak to (nie) zostałem programistą, a na koniec udzielę też kilku rad w tym temacie.
+Mając lat siedem dostałem komputer… Ot, stary używany złom którego używałem głównie do grania w to co gimby nie znają. Internetu za bardzo nie było, a jak się już pojawił to kosztował tyle, że opłacało się go używać jedynie w porach, w których już dawno spałem. W międzyczasie ojciec uraczył mnie prezentem w postaci pierwszego numeru czasopisma o podstawach programowania wydawanym przez istniejące do dziś wydawnictwo szczycące się różnego rodzaju zestawami do samodzielnego montażu i częściami do nich, a także książkami powiązanymi tematycznie i/lub gatunkowo." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://brainfork.org/posts/20150806-programista/" />
+<meta property="article:published_time" content="2015-08-06T00:00:00+02:00" />
+<meta property="article:modified_time" content="2015-08-06T00:00:00+02:00" />
+
+
+    <title>
+  Jak (nie) zostać programistą… · Brainfork
+</title>
+
+    
+      <link rel="canonical" href="https://brainfork.org/posts/20150806-programista/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.1.7/css/fork-awesome.min.css" integrity="sha512-9QjPqX/aCNwEQDyMqqMluNOSsHxTwOJNO3d4m5aUeNbyOPm8RcBA5hCUhvGmKFtSmQYGajqPopGtD60FWiWUwg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.f01c647a0d25b40da992a37c3376291185eed8a50ced8c26cc2c0bcfe38c97df.css" integrity="sha256-8Bxkeg0ltA2pkqN8M3YpEYXu2KUM7YwmzCwLz&#43;OMl98=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.79.0" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Brainfork
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/categories/programowanie/">Programowanie</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/categories/elektronika/">Elektronika</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/categories/sysadmin/">Linux/FreeBSD</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/categories/diy/">DIY</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/categories/hardware/">Hardware</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/categories/felietony/">Felietony</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">/</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Jak (nie) zostać programistą…</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2015-08-06T00:00:00&#43;02:00'>
+                August 6, 2015
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              4 min czytania
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="/categories/programowanie/">Programowanie</a>
+      <span class="separator">•</span>
+    <a href="/categories/felietony/">Felietony</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <a href="/tags/felieton/">felieton</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p>Opiszę Wam jak to (nie) zostałem programistą, a na koniec udzielę też kilku rad w tym temacie.</p>
+<p>Mając lat siedem dostałem komputer… Ot, stary używany złom którego używałem
+głównie do grania w to co <em>gimby nie znają</em>. Internetu za bardzo nie było, a
+jak się już pojawił to kosztował tyle, że opłacało się go używać jedynie w
+porach, w których już dawno spałem. W międzyczasie ojciec uraczył mnie
+prezentem w postaci pierwszego numeru czasopisma o podstawach programowania
+wydawanym przez istniejące do dziś wydawnictwo szczycące się różnego rodzaju
+zestawami do samodzielnego montażu i częściami do nich, a także książkami
+powiązanymi tematycznie i/lub gatunkowo. Ciekawą tendencją tego wydawnictwa
+jest wzrost ceny każdego kolejnego numeru z serii i dołączanie coraz mniejszej
+ilości części (lub gorszych książek). Do wspomnianego czasopisma dołączona była
+płyta z Delphi 2 Enterprise, a kolorowe strony pokazywały jak spowodować, by
+nasz program po naciśnięciu przycisku wyświetlił napis na swoim okienku.
+Koniec. Kolejnych numerów serii nie uświadczyłem. Ot mój początek
+programowania, którego kontynuację musiałem prowadzić na własną rękę, głównie
+sprawdzając co jaka funkcja z podpowiedzi IDE psuje. Naukę programowania
+znacząco przyspieszał fakt, że komputer pomimo modernizacji zawsze odstawał od
+parametrów jakich życzyłyby sobie gry, tak więc granie ograniczało się do
+odwiedzin pobliskiej wypożyczalni kaset VHS zaopatrzonej w kilka automatów do
+gier.</p>
+<p>Kilka lat później na polski rynek zawitało czasopismo <em>Komputer Świat Ekspert</em>,
+a na jego łamach mogłem podziwiać różne projekty programów, a także dowiedzieć
+się, że istnieją inne języki służące do psucia komputera swojego, jak i innych.
+Programowanie w Delphi (już w wersji 7 Personal) stało się moją pasją i każdą
+wolną od szkoły oraz znikania na całe dnie na dworze (bez kasku na głowie,
+takich to nieodpowiedzialnych rodziców miałem!) przeznaczałem na szlifowanie
+swoich umiejętności programistycznych. Znalazłem to, co chciałem robić przez
+resztę życia.</p>
+<p>W międzyczasie poznawałem też język C++, a Biblię JavaScript otrzymaną na
+urodziny przeczytałem od deski do deski tyle razy, że się rozpadła. Zapragnąłem
+tworzyć strony internetowe! Internet już nie był na impulsy, więc (o zgrozo!)
+stworzyłem swoją własną stronę internetową, ze swoimi i nieswoimi programami,
+nawet nie mając pojęcia do czego służy licencja oprogramowania. Straszyłem tym
+ludzi przez wiele lat, dodając coraz to nowsze JavaScripty i CSSy własnego
+autorstwa, a po czasie nawet koślawe skrypty PHP, pokusiłem się nawet o
+sklonowanie zachowania chwilowo popularnego <a href="https://en.wikipedia.org/wiki/EyeOS">EyeOS</a>, a nawet
+dowiedziałem czym jest licencja <em>Freeware</em>.</p>
+<p>Nastał czas wyboru szkoły średniej — wybór oczywisty — Technikum Informatyczne.
+Młodszych czytelników proszę o brak uprzedzeń, słyszałem z różnych źródeł, że
+instytucja technikum podupadła i poziomem ma aktualnie bliżej do zawodówki dla
+mechaników i innych spawaczy niż elitarnego liceum, wtedy to była elita elit.
+Trafiłem… i co? I się załamałem. Programowanie owszem, Turbo Pascal, starszy
+niż moje pierwsze Delphi. C++ pomieszany z C i standardem ISO o potocznej
+nazwie “<em>pisz jak ci nauczyciel podyktował, albo pała</em>”. Główny nacisk był na
+nauczenie nas jak zostać perfekcyjną sekretarką, natomiast programowanie
+polegało głównie na przepisywaniu niezrozumiałego dla większości bełkotu i
+obniżaniu ocen za sformatowanie kodu inaczej niż na kartce/tablicy. Nie
+kompiluje się? Przepisz od początku. W tym okresie pojąłem, że jeśli ktoś chce
+mieć cokolwiek wspólnego z branżą IT oprócz wydajnej pracy w pakiecie Office i
+odpalania LAN Party to na polskie szkolnictwo nie ma co liczyć, niech się uczy
+sam. A szepty w mojej głowie mówią mi, że od tamtego czasu nic się nie zmieniło
+i zamiast uczyć młodzież piękna HTML5 uczą… HTML3, dalej, bo tak w podstawie
+programowej i nauczyciel nawet jakby chciał i potrafił to nie może.</p>
+<p>Trudno, po wystarczającym dokształceniu się z kilku języków na własną rękę
+zacząłem programować na zlecenie, susząc zęby na każde poważne zlecenie za
+50zł. Tutaj poznałem kolejną piekielność — ludzie nie wiedzą co chcą. Albo
+wiedzą, tylko nie wiedzą, że to niemożliwe. A najlepiej to jakbyś im jeszcze za
+ten program zapłacił, bo 50zł to drogo. Kilka lat tak “pracowałem”, aż w końcu
+stwierdziłem, że mam dość, bo rynek programistyczny, zarówno jako freelancer
+jak i przy pracy stałej to wyścig szczurów, ciągła pogoń za nierealnymi
+terminami lub wymaganiami. Zająłem się administracją serwerów i jestem
+szczęśliwy, a i zlecenia mają więcej zer na końcu.</p>
+<p>A gdzie rady? Nie zostawaj programistą — prędzej czy później się wypalisz, a
+jeśli było to Twoim hobby i marzeniem — świat je zniszczy. Praca jako
+programista niewiele ma wspólnego z projektami hobbystycznymi i wcale nie jest
+taka fajna jak to się wydawało.</p>
+<p>PS Jeśli ktoś chętny to mogę odstąpić wspomniany “JavaScript. Biblia” za cenę
+przesyłki, jak i kilka innych hipsterskich już książek. Preferowany paczkomat.
+Osoby chętne proszę o kontakt Twitterem.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+      
+        ©
+        
+        2020
+         Licho 
+      
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+      
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

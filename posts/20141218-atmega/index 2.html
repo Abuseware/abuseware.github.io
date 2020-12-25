@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="pl">
+
+    <meta name="author" content="Licho">
+    <meta name="description" content="TL;DR — Bawię się ATmegą8a, przyszedłem pomarudzić.
+Od zawsze byłem osobą ciekawską, może o tyle jest to zaletą, że bardziej niż życie sąsiada interesowało mnie to jak działa sprzęt (w szczególności elektroniczny) który mnie otacza. Przez wiele lat na zainteresowaniu i studiowaniu bebechów — często ze skutkiem fatalnym dla samych urządzeń — przygoda z tym tematem się kończyła, zanikając pod presją kurczącego się wolnego czasu, jak i zużywaniem go na naukę programowania i administracji systemami uniksowatymi.">
+    <meta name="keywords" content="blog,sysadmin,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Spotkanie z Atmel ATmega8 — pierwsze wrażenia"/>
+<meta name="twitter:description" content="TL;DR — Bawię się ATmegą8a, przyszedłem pomarudzić.
+Od zawsze byłem osobą ciekawską, może o tyle jest to zaletą, że bardziej niż życie sąsiada interesowało mnie to jak działa sprzęt (w szczególności elektroniczny) który mnie otacza. Przez wiele lat na zainteresowaniu i studiowaniu bebechów — często ze skutkiem fatalnym dla samych urządzeń — przygoda z tym tematem się kończyła, zanikając pod presją kurczącego się wolnego czasu, jak i zużywaniem go na naukę programowania i administracji systemami uniksowatymi."/>
+
+    <meta property="og:title" content="Spotkanie z Atmel ATmega8 — pierwsze wrażenia" />
+<meta property="og:description" content="TL;DR — Bawię się ATmegą8a, przyszedłem pomarudzić.
+Od zawsze byłem osobą ciekawską, może o tyle jest to zaletą, że bardziej niż życie sąsiada interesowało mnie to jak działa sprzęt (w szczególności elektroniczny) który mnie otacza. Przez wiele lat na zainteresowaniu i studiowaniu bebechów — często ze skutkiem fatalnym dla samych urządzeń — przygoda z tym tematem się kończyła, zanikając pod presją kurczącego się wolnego czasu, jak i zużywaniem go na naukę programowania i administracji systemami uniksowatymi." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://brainfork.org/posts/20141218-atmega/" />
+<meta property="article:published_time" content="2014-12-18T00:00:00+02:00" />
+<meta property="article:modified_time" content="2014-12-18T00:00:00+02:00" />
+
+
+    <title>
+  Spotkanie z Atmel ATmega8 — pierwsze wrażenia · Brainfork
+</title>
+
+    
+      <link rel="canonical" href="https://brainfork.org/posts/20141218-atmega/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.1.7/css/fork-awesome.min.css" integrity="sha512-9QjPqX/aCNwEQDyMqqMluNOSsHxTwOJNO3d4m5aUeNbyOPm8RcBA5hCUhvGmKFtSmQYGajqPopGtD60FWiWUwg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.f01c647a0d25b40da992a37c3376291185eed8a50ced8c26cc2c0bcfe38c97df.css" integrity="sha256-8Bxkeg0ltA2pkqN8M3YpEYXu2KUM7YwmzCwLz&#43;OMl98=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.79.0" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Brainfork
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/categories/programowanie/">Programowanie</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/categories/elektronika/">Elektronika</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/categories/sysadmin/">Linux/FreeBSD</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/categories/diy/">DIY</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/categories/hardware/">Hardware</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/categories/felietony/">Felietony</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">/</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Spotkanie z Atmel ATmega8 — pierwsze wrażenia</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2014-12-18T00:00:00&#43;02:00'>
+                December 18, 2014
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              4 min czytania
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="/categories/elektronika/">Elektronika</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <a href="/tags/atmel/">atmel</a>
+      <span class="separator">•</span>
+    <a href="/tags/atmega/">atmega</a>
+      <span class="separator">•</span>
+    <a href="/tags/avr/">avr</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p><em>TL;DR — Bawię się ATmegą8a, przyszedłem pomarudzić.</em></p>
+<p>Od zawsze byłem osobą ciekawską, może o tyle jest to zaletą, że bardziej niż
+życie sąsiada interesowało mnie to jak działa sprzęt (w szczególności
+elektroniczny) który mnie otacza. Przez wiele lat na zainteresowaniu i
+studiowaniu bebechów — często ze skutkiem fatalnym dla samych urządzeń —
+przygoda z tym tematem się kończyła, zanikając pod presją kurczącego się
+wolnego czasu, jak i zużywaniem go na naukę programowania i administracji
+systemami uniksowatymi.</p>
+<p>Jednak z powodu nagłego widzimisię oraz możliwości ku temu powróciłem do
+studiowania wszelkiej maści elektroniki, tym razem od bardziej naukowej strony
+tematu. Po zrozumieniu podstawowych zasad rządzących światem prądu poczułem, że
+przecież to nie jest tak wciągający temat — prawdę mówiąc jest zbyt prosty. Tak
+więc wzrok mój padł na <strong>µC</strong> — mikrokontrolery.</p>
+<p>Po chwili dłubania w otchłaniach http:// wywnioskowałem, jak i wielu innych
+przede mną, że na początek miłym urządzeniem będzie <strong>AVR ATmega8</strong> (wersja
+8A-PU, choć teraz wiem, że lepszym wyborem byłaby 88). Jest czym się pochwalić
+i na co ponarzekać — temat na artykuł jak znalazł. Zacznijmy więc od
+narzekania.</p>
+<h2 id="wady-subiektywnie">Wady (subiektywnie)</h2>
+<p>Jestem zagorzałym uniksiarzem i windowsa nie wypuszczałem poza moje VMWare od
+baaardzo dawna. Przykrą niespodzianką więc było, że o ile pisać programy w
+QtCreator czy Emacsie, kompilować przez AVR-GCC, flashować przez avrdude mogę
+bez problemu, o tyle debugowanie ich przez zestaw AVR-GDB plus symulator simavr
+lub simulavr (ach ten polot i finezja przy wymyślaniu nazw) jest męczące,
+upierdliwe i niewygodne. Chyba jedyny istniejący dodatek do jakiegokolwiek IDE
+to przestarzały, nierozwijany od prawie 3 lat AVR-Eclipse, a i on niewiele
+ponad to co QtCreator czy Emacs nie oferuje (SIC!). Oficjalne IDE (Atmel
+Studio) oparte jest o MS Visual Studio więc o odpaleniu go pod WINE można
+pomarzyć — tak więc za dostępność środowiska srogi minus.</p>
+<p>Programować można w C, C++ (używając API w C) oraz Assembly (a pewnie i sporo
+innych języków, jakby komuś chciało się owrapować funkcje). Zdziwiło mnie, że
+większość rozszerzeń LibC o funkcje specyficzne dla platformy to przeważnie
+kalka odpowiednich mnemoników Assembly, a wszelkie porty, piny i tryby ustawia
+się poprzez zmianę bitów zmiennych o nazwach adekwatnych do rejestrów procesora
+na których operują… A można było zaimplementować ładne API.</p>
+<h2 id="zalety-tak-samo-subiektywne">Zalety (tak samo subiektywne)</h2>
+<p>Jestem szczerze zaskoczony mnogością funkcji scalaka, który kosztuje grosze —
+nie licząc kosztów dostarczenia polskie firmy oferują kostkę w cenach 8–9zł za
+sztukę, a jeszcze taniej przy zamówieniu kilku. Na ibeju od chińczyka zamówić
+można w cenach $3 za sztukę, a przy zamówieniu pięciu czy dziesięciu sztuk cena
+jednej spada do okolicy dolara.</p>
+<p>Drugim atutem jest niewątpliwie wieloplatformowy zestaw narzędzi
+programistycznych o którym wspomniałem wcześniej, t.j. zestaw kompilatorów
+oparty o GNU GCC i GNU BinUtils — w świetle ostatnich rewolucji w świecie
+kompilatorów przyczepić się można o brak LLVM/Clang, ale to już kwestia bycia
+wybredną marudą — debuggera GNU GDB, symulatorów simavr i simulavr oraz
+flashera AVRDude. Programować się da, szkoda tylko, że nie tak wygodnie jak pod
+Atmel Studio.</p>
+<p>Wydajność scalaka również robi wrażenie — architektura pozwala na wykonywanie
+prawie wszystkich instrukcji z wydajnością 1MIPS na każdy 1MHz, a kolejne
+instrukcje buforowane są w trakcie wykonywania poprzedniej co pozwala na ciągłą
+pracę kodu, bez najmniejszych przestojów.</p>
+<p>Energooszczędność nie jest dla mnie wielce ważna, jednak procesor ten umożliwia
+wprowadzanie go w kilka stanów uśpienia, wyłaczanie niepotrzebnych modułów, a
+także w pełni sprawny pobiera kilka mA. Warto też nadmienić, że podczas
+uśpienia zużycie prądu może spaść do ~0.5µA (udało mi się zmierzyć 1µA, ale
+pewnie to tylko niedokładność multimetru).</p>
+<h2 id="ale-tobie-się-nudzi">Ale tobie się nudzi…</h2>
+<p>Trochę… Programowania zacząłem się uczyć na własną rękę jakieś 16 lat temu.
+Przez ten czas poznałem masę różnych, niekiedy bardzo dziwnych języków od
+bardzo niskopoziomowych (Assembly x86) po całkowicie abstrakcyjne względem
+sprzętu (Java, Scala, Python, …) W końcu przyszedł ten moment, że programowanie
+przestało sprawiać frajdę, zaczęło brakować pomysłów na własne projekty i
+całość ograniczyła się do pisania krótkich helperów codziennej pracy, w py czy
+sh. AVRki pozwoliły mi na dalszą zabawę.</p>
+<p>Poniżej jeden z pierwszych projektów, wideo nagrywane rzutnikiem z przesłoną z
+wczorajszej skarpetki i konwertowane młynkiem do mięsa.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; background-color: black;">
+	<video width="100%" height="100%" controls>
+		<source src="/assets/20141218-atmega/various_led_effects.mp4">
+	</video>
+</div>
+
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+      
+        ©
+        
+        2020
+         Licho 
+      
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+      
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>
