@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>youtube on Brainfork</title>
+    <link>https://brainfork.org/tags/youtube/</link>
+    <description>Recent content in youtube on Brainfork</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Thu, 09 Jan 2020 00:00:00 +0200</lastBuildDate><atom:link href="https://brainfork.org/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alternatywy popularnych usług, które uszanują waszą prywatność</title>
+      <link>https://brainfork.org/posts/20210109-privacy-aware/</link>
+      <pubDate>Thu, 09 Jan 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://brainfork.org/posts/20210109-privacy-aware/</guid>
+      <description>Wczorajsza zmiana w regulaminie WhatsApp (szczegóły wypunktuję w kolejnym akapicie) zachęciła mnie do stworzenia tej krótkiej listy sugerującej alternatywy dla kilku popularnych usług, które szanują prywatność użytkownika zamiast robić z niego swój właściwy produkt.
+Co więc zmieniło się w WhatsApp? Tzw. metadane powiązane z Twoimi rozmowami, takie jak choćby to z kim, kiedy czy z jakiego urządzenia rozmawiasz, a także załączniki pokroju zdjęć mogą być przesyłane do innych usług Facebooka, tłumaczą się przy tym przyszłą integracją pomiędzy swoimi komunikatorami.</description>
+    </item>
+    
+  </channel>
+</rss>

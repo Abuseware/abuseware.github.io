@@ -3,6 +3,61 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://brainfork.org/posts/20210109-privacy-aware/</loc>
+    <lastmod>2020-01-09T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brainfork.org/</loc>
+    <lastmod>2020-01-09T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brainfork.org/categories/</loc>
+    <lastmod>2020-01-09T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brainfork.org/tags/discord/</loc>
+    <lastmod>2020-01-09T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brainfork.org/tags/felieton/</loc>
+    <lastmod>2020-01-09T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brainfork.org/categories/felietony/</loc>
+    <lastmod>2020-01-09T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brainfork.org/posts/</loc>
+    <lastmod>2020-01-09T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brainfork.org/tags/prywatno%C5%9B%C4%87/</loc>
+    <lastmod>2020-01-09T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brainfork.org/tags/</loc>
+    <lastmod>2020-01-09T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brainfork.org/tags/whatsapp/</loc>
+    <lastmod>2020-01-09T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brainfork.org/tags/youtube/</loc>
+    <lastmod>2020-01-09T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://brainfork.org/tags/arduino/</loc>
     <lastmod>2019-03-16T00:00:00+02:00</lastmod>
   </url>
@@ -23,32 +78,12 @@
   </url>
   
   <url>
-    <loc>https://brainfork.org/</loc>
-    <lastmod>2019-03-16T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://brainfork.org/categories/</loc>
-    <lastmod>2019-03-16T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://brainfork.org/categories/elektronika/</loc>
     <lastmod>2019-03-16T00:00:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://brainfork.org/tags/pogoda/</loc>
-    <lastmod>2019-03-16T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://brainfork.org/posts/</loc>
-    <lastmod>2019-03-16T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://brainfork.org/tags/</loc>
     <lastmod>2019-03-16T00:00:00+02:00</lastmod>
   </url>
   
@@ -138,11 +173,6 @@
   </url>
   
   <url>
-    <loc>https://brainfork.org/categories/felietony/</loc>
-    <lastmod>2016-07-29T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://brainfork.org/tags/gry/</loc>
     <lastmod>2016-07-29T00:00:00+02:00</lastmod>
   </url>
@@ -199,16 +229,6 @@
   
   <url>
     <loc>https://brainfork.org/tags/cisa/</loc>
-    <lastmod>2015-11-12T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://brainfork.org/tags/felieton/</loc>
-    <lastmod>2015-11-12T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://brainfork.org/tags/prywatno%C5%9B%C4%87/</loc>
     <lastmod>2015-11-12T00:00:00+02:00</lastmod>
   </url>
   
